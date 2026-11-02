@@ -1,4 +1,3 @@
 streamlit
 pandas
-google-genai
-# prueba
+openai>=1.0.0

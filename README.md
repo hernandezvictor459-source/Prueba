@@ -37,3 +37,20 @@ El usuario da…	La app devuelve…	Ejemplo
 Cantidad de paquetes	Precio por paquete y total	100 paquetes: RD$10,500 antes del descuento por pago
 Cantidad y forma de pago	Cotización con el descuento correspondiente	100 paquetes al contado: RD$10,185
 Consulta sobre pagos atrasados	Mensaje cordial de recordatorio	Un mensaje para solicitar la regularización del balance sin perder la buena relación comercial
+
+
+## Configuración y Ejecución
+1. Instala los requerimientos:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Configura tu API Key en `.streamlit/secrets.toml`:
+   ```toml
+   OPENROUTER_API_KEY = "tu_api_key_aqui"
+   OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
+   OPENROUTER_MODEL = "deepseek/deepseek-v4.1-flash-1017"
+   ```
+3. Ejecuta la aplicación de Streamlit:
+   ```bash
+   streamlit run app.py
+   ```

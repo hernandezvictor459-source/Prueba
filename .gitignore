@@ -1,0 +1,12 @@
+# Streamlit secrets (sensible)
+.streamlit/secrets.toml
+
+# Python cache y entornos virtuales
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.env
+venv/
+.venv/
+env/
